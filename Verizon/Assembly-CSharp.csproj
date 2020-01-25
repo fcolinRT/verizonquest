@@ -860,6 +860,30 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
+    <Compile Include="Assets\Scripts\Objects\ActiveStateToggler.cs" />
+    <Compile Include="Assets\Scripts\Objects\AnimsManager.cs" />
+    <Compile Include="Assets\Scripts\Objects\ApplicationManager.cs" />
+    <Compile Include="Assets\Scripts\Objects\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\Objects\Clases.cs" />
+    <Compile Include="Assets\Scripts\Objects\ConsultasAPI.cs" />
+    <Compile Include="Assets\Scripts\Objects\ControllerManager.cs" />
+    <Compile Include="Assets\Scripts\Objects\CrashScript.cs" />
+    <Compile Include="Assets\Scripts\Objects\DragMe.cs" />
+    <Compile Include="Assets\Scripts\Objects\DragPanel.cs" />
+    <Compile Include="Assets\Scripts\Objects\DropMe.cs" />
+    <Compile Include="Assets\Scripts\Objects\EntityScript.cs" />
+    <Compile Include="Assets\Scripts\Objects\IKManager.cs" />
+    <Compile Include="Assets\Scripts\Objects\Instructions.cs" />
+    <Compile Include="Assets\Scripts\Objects\ObjectPositioner.cs" />
+    <Compile Include="Assets\Scripts\Objects\PanelManager.cs" />
+    <Compile Include="Assets\Scripts\Objects\PlagerManager.cs" />
+    <Compile Include="Assets\Scripts\Objects\RaycasSelector.cs" />
+    <Compile Include="Assets\Scripts\Objects\ResizePanel.cs" />
+    <Compile Include="Assets\Scripts\Objects\SceneAdmin.cs" />
+    <Compile Include="Assets\Scripts\Objects\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\Scripts\Objects\ShowSliderValue.cs" />
+    <Compile Include="Assets\Scripts\Objects\TiltWindow.cs" />
+    <Compile Include="Assets\Scripts\Objects\UIManager.cs" />
     <Compile Include="Assets\Scripts\Socket\SocketManager.cs" />
     <Compile Include="Assets\SocketIO\JSONObject\JSONObject.cs" />
     <Compile Include="Assets\SocketIO\JSONObject\JSONTemplates.cs" />
@@ -1014,6 +1038,7 @@
     <None Include="Assets\Mapbox\Unity\Location\ExampleGpsTraces\LocationProviderAndroidNative.txt" />
     <None Include="Assets\UnityARInterface\Examples\Common\Shaders\MobileOcclusion.shader" />
     <None Include="Assets\UnityARInterface\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
+    <None Include="Assets\Shader\NewSurfaceShader.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
     <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
     <None Include="Assets\Mapbox\Unity\Location\ExampleGpsTraces\Helsinki.txt" />
@@ -1079,88 +1104,88 @@
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARCore">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARCore.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit.Editor">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -1343,25 +1368,25 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.6f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="MapboxAccountsUnity">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Assets/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Assets/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.IO.Compression">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.Json">
-      <HintPath>C:/Users/Kev/Documents/Redwood/Unity/Verizon/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+      <HintPath>C:/Users/Kev/Documents/GitHub/verizonquest/Verizon/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
