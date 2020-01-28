@@ -1,0 +1,18 @@
+version: "3"
+services:
+  database:
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: verzion
+      MONGO_INITDB_ROOT_PASSWORD: test123
+      MONGO_INITDB_DATABASE: quickstart
+  mqtt-cliente:
+    image: verizon-test
+    volumes:
+      - .:/go/src/github.com/tony1908
+    command: go run server.go
+    depends_on:
+      - database
