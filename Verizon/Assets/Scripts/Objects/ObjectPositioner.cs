@@ -78,8 +78,13 @@ public class ObjectPositioner : MonoBehaviour
 
     public Animator videoAnimator;
 
+    public FullStructureArray fsa;
+
     private void Start()
     {
+         fsa = new FullStructureArray();
+        
+
         if (useLocalInfo)
         {
             //currentTime = startTime = new DateTime(2018, startingMont, startingDay, hoursStarting, minutesStarting, secondsStarting);
@@ -97,6 +102,11 @@ public class ObjectPositioner : MonoBehaviour
         lastIndexActivated = 0;
 
         
+    }
+
+    private void Update()
+    {
+        Debug.Log(JsonUtility.ToJson(fsa));
     }
 
     public void InitializeMap()

@@ -860,6 +860,15 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
+    <Compile Include="Assets\Scripts\NewParsers\Entities\Bike.cs" />
+    <Compile Include="Assets\Scripts\NewParsers\Entities\Car.cs" />
+    <Compile Include="Assets\Scripts\NewParsers\Entities\EntityClass.cs" />
+    <Compile Include="Assets\Scripts\NewParsers\Entities\EntityManager.cs" />
+    <Compile Include="Assets\Scripts\NewParsers\Entities\Pedestrian.cs" />
+    <Compile Include="Assets\Scripts\NewParsers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\NewParsers\MapManager.cs" />
+    <Compile Include="Assets\Scripts\NewParsers\SerializableClasses.cs" />
+    <Compile Include="Assets\Scripts\NewParsers\Serializer.cs" />
     <Compile Include="Assets\Scripts\Objects\ActiveStateToggler.cs" />
     <Compile Include="Assets\Scripts\Objects\AnimsManager.cs" />
     <Compile Include="Assets\Scripts\Objects\ApplicationManager.cs" />
@@ -1038,7 +1047,6 @@
     <None Include="Assets\Mapbox\Unity\Location\ExampleGpsTraces\LocationProviderAndroidNative.txt" />
     <None Include="Assets\UnityARInterface\Examples\Common\Shaders\MobileOcclusion.shader" />
     <None Include="Assets\UnityARInterface\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
-    <None Include="Assets\Shader\NewSurfaceShader.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
     <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
     <None Include="Assets\Mapbox\Unity\Location\ExampleGpsTraces\Helsinki.txt" />
@@ -1079,6 +1087,7 @@
     <None Include="Assets\Mapbox\Unity\Location\ExampleGpsTraces\LocationProviderAndroidNative-2.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />
     <None Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShaderLinear.shader" />
+    <None Include="Assets\Downloads\Assets MOOD WARE\_MW Skybox\Documentation\Documentation City Street Skyboxes Vol. 1.txt" />
     <None Include="Assets\Mapbox\Examples\2_AstronautGame\AstronautGame\Astronaut\ProjectorLight.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_01.shader" />
     <None Include="Assets\GoogleARCore\Examples\ComputerVision\Materials\AREdgeDetectionBackground.shader" />

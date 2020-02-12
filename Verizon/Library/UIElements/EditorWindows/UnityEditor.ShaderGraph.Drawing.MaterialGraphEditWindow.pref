@@ -15,6 +15,26 @@ MonoBehaviour:
   m_Keys:
   - __PanelContainer__rootVisualContainer__026eaf61af215614c84b1ce5b749717e__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
   - __PanelContainer__rootVisualContainer__026eaf61af215614c84b1ce5b749717e__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__c616eeb5851f13341996b8b65a4fe5b5__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__c616eeb5851f13341996b8b65a4fe5b5__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__bda95b26944fb90498b17b0c86400760__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__bda95b26944fb90498b17b0c86400760__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__e056a0c077ed53f4dbe5cd48f069aa96__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__e056a0c077ed53f4dbe5cd48f069aa96__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__abccb1339fde50a438a24ed54be3720b__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__abccb1339fde50a438a24ed54be3720b__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__b2d521e3fe72e5345bfd1715ddf5c360__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__b2d521e3fe72e5345bfd1715ddf5c360__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
   m_Values:
-  - '{"position":{"x":422.0,"y":240.8000030517578,"z":0.0},"scale":{"x":0.7561436891555786,"y":0.7561436891555786,"z":1.0}}'
-  - '{"m_Version":1,"m_SelectedElementsArray":["20379d0d-867d-4f69-946a-a2e05129a3ab"]}'
+  - '{}'
+  - '{}'
+  - '{"position":{"x":393.20001220703127,"y":364.79998779296877,"z":0.0},"scale":{"x":0.10686475783586502,"y":0.10686475783586502,"z":1.0}}'
+  - '{"m_Version":137,"m_SelectedElementsArray":["9340dbc4-e3f5-455c-a181-af7ecff2be02","109fda32-8212-4260-8736-d0783f2906e1","ced31043-9ece-429f-9460-0b702d2875d8","63bb74fb-b94f-477b-aa4e-4b040df247b0","20cbf11d-8ab7-4a36-9363-1f700c00b81d","686f0080-0deb-464a-95a5-2023eb76b70e","27247339-9021-4bcd-b64b-0ab37f6b0306","659a57d9-811f-46a6-8744-ff800e6b7e28","78aff65e-90b7-4536-84a8-cf768f92188c","003a1ed1-28d4-40a5-9f88-d0ab9ca78cfd","f8a6d695-b177-4ac0-8b39-0a2a0dec96d2","dc4d4c26-f95d-4afd-b54b-b781a623b2c9","c770b0a0-e9bb-4d46-8aa7-20a1c539e015","fbf91bdf-bcc7-486b-b21b-6cd5734d77fe","d1b0688e-eca2-4d20-8d27-1f3b79b71ae9","18c87e53-cfd2-4f19-98f3-1f41b44ff049","db162c5c-ef31-4eac-b41f-12e7e22367c2","d5e6b0f8-6773-461e-93e4-3f4bc5f6f093","a6ec2297-e4f0-47f1-b50f-65fb11464041","8b87df72-47f2-42af-ac32-4eb94c38c4a4","e8df1261-de77-4cc3-8d4e-18dc947c6041","d84ef4ae-25b3-4401-8ddb-b3b3cc1157f3","df3608f9-29f8-4002-95d1-2b2c952e3a39","6b625771-5f17-4e4d-afd0-c62d4cdb7758","1d6accc9-bbbe-4e99-9807-935735192ed1","30c31480-af4c-42d1-8f2b-929d3c3823c8","75edbb3f-d5e6-4196-8c06-d4651ada8be0","85069813-d575-4dc5-974b-a05fb5c39d59","1dc1c73c-aa91-466a-95db-95315d82c942","5967a4db-0f67-4d8b-b234-403020b6962a","fc96f264-f317-4379-b3a3-c5d2773dc14d","f1eb614e-7699-4e9b-9cae-30db69ae17d7","4556035d-2a15-4afc-b2a8-77557dfc80f1","351adc56-c888-4e6c-b60f-83bc06b21726","cf0b661a-eea0-47b3-9606-0b33dd3db728","2d82b039-10f5-4502-b748-1ab83f6d3d9b","aebd5141-eba9-4160-95fc-66eed5bedce2"]}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
